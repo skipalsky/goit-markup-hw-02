@@ -1,5 +1,20 @@
+/* Base */
 body {
     font-family: 'Roboto', 'Raleway' , sans-serif;
     color: #2E2F42;
     background-color: #FFF;
+    font-size: 16px;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+}
+/* End base */
