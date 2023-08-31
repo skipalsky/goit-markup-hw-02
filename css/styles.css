@@ -11,7 +11,7 @@
   /* Base */
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--slate)
+    color: var(--slate);
     background-color: var(---white);
     font-size: 16px;
 }
@@ -78,6 +78,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+.adress-link:hover, .adress-link:focus {
+    color: var(--ocean)
+}
   /* END header */
 
   /* Main section */
@@ -90,14 +94,23 @@ letter-spacing: 0.02em;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
+line-height: 1.07;
+letter-spacing: 0.02em;
 }
 
 .main-button {
-    border-radius: 4px;
-    background: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(---white);
+    background-color: var(--iris);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+}
+
+.main-button:hover, .main-button:focus {
+    background-color: var(--ocean);
 }
 
 .main-button-text {
@@ -133,7 +146,7 @@ letter-spacing: 0.4px;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -166,7 +179,7 @@ letter-spacing: 0.32px;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -196,19 +209,23 @@ letter-spacing: 0.4px;
 }
 
 .logo-footer {
-    color: var(--cloud, #F4F4FD);
-    font-family: 'Raleway';
-    font-size: 18px;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    }
+
+.logo-footer-accent {
+    color: var(--cloud);
 }
 
 .footer-text {
-    color: var(--cloud, #F4F4FD);
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.32px;
+    color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+    
 /* END footer */
