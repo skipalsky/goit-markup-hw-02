@@ -123,6 +123,7 @@ letter-spacing: 0.64px;
 
 /* Advantages section */
 .advantages-title {
+    color: var(--navyblue);
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
@@ -143,6 +144,7 @@ letter-spacing: 0.4px;
 }
 
 .team-title {
+    color: var(--navyblue);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -176,6 +178,7 @@ letter-spacing: 0.32px;
 
 /* Portfolio section */
 .portfolio-title {
+    color: var(--navyblue);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
