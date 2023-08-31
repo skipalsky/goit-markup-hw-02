@@ -5,12 +5,13 @@
     --iris: #4D5AE5;
     --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
+    --ocean:  #404BBF;
   }
   
   /* Base */
 body {
-    font-family: 'Roboto', 'Raleway' , sans-serif;
-    color: var(--navyblue);
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate)
     background-color: var(---white);
     font-size: 16px;
 }
@@ -43,31 +44,39 @@ button {
 
   /* Header */
 .logo {
-    color: var(--navyblue, #2E2F42);
-    font-family: 'Raleway';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .logo-accent {
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue)
 }
 
 .nav-link {
     color: var(--navyblue, #2E2F42);
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
-.address-link {
-    color: var(--slate, #434455);
+.nav-link:hover, .nav-link:focus {
+    color: var(--ocean)
+}
+
+.adress {
+    font-style: normal
+}
+
+.adress-link {
+    color: var(--SLATE, #434455);
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
   /* END header */
 
