@@ -150,6 +150,7 @@ button {
 }
 
 .team-name {
+    color: var(--navyblue);
     text-align: center;
     font-size: 20px;
     font-weight: 500;
